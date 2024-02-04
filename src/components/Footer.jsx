@@ -52,7 +52,7 @@ export const Footer = () => {
                         </svg>
                       </div>
                     </span>
-                    <span> Paronama by Phoenix Ventures</span>
+                    <span> LocalProsper by Algorithm Alchemists</span>
                   </Link>
                 </div>
                 <p className=" sm:pr-8 mb-6">

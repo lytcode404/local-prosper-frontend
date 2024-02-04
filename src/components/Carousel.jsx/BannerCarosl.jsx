@@ -82,7 +82,7 @@ const BannerCarosl = () => {
           {allBrands ? (
             allBrands.map((brand, index) => {
               return (
-                <div key={index} className="carosl-item">
+                <div key={index} className="carosl-item ">
                   <Image
                     alt=""
                     src={
@@ -92,7 +92,7 @@ const BannerCarosl = () => {
                     }
                     width={1944}
                     height={944}
-                    className=""
+                    className="w-auto"
                   />
                 </div>
               );

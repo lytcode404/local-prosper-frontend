@@ -128,7 +128,7 @@ const Header = ({ User }) => {
     <header className="bg-navigation fixed z-30 w-full py-4 shadow-md">
       <div className="flex items-center justify-between h-full px-6 mx-auto">
         <Link href={`/`} className="text-xl font-bold text-heading">
-          Paronama
+          LocalProsper
           {router?.query?.brandName && (
             <p className="text-sm"> {" + " + router?.query?.brandName}</p>
           )}
