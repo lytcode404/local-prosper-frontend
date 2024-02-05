@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useRouter } from "next/router";
 import Image from "next/image";
-const store = () => {
+const Store = () => {
   const [qrCodeDataURL, setQRCodeDataURL] = useState("");
   const [isGenerateClicked, setIsGenerateClicked] = useState(false);
 
@@ -70,4 +70,4 @@ const store = () => {
   );
 };
 
-export default store;
+export default Store;
